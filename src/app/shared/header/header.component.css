@@ -1,0 +1,10 @@
+.bg-header{
+    background-color: rgba(171, 226, 255, 0.95);
+    background-image: url("../../../assets/img/prueba.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.idioma{
+    margin: 7px 2px 0px 2px;
+}

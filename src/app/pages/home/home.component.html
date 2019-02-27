@@ -1,0 +1,77 @@
+<div class="row">
+
+  <form class="col-12 text-center" [formGroup]="form">
+    <div>
+      <select id="" formControlName="origen">
+        <option value="" disabled hidden selected>Origen...</option>
+        <option value="Londres">Londres</option>
+      </select>
+      
+      <div *ngIf="origen.errors && (origen.touched || origen.dirty)" class="label label-warning">
+        <div *ngIf="origen.errors.required">
+          {{ info('h-error-origen') }}
+        </div>
+      </div>
+
+    </div>
+    <div>
+      <select id="" formControlName="destino">
+        <option value="" disabled hidden selected>Destino...</option>
+      </select>
+      
+      <div *ngIf="destino.invalid && (destino.touched || destino.dirty)" class="label label-warning">
+        <div *ngIf="destino.errors.required">
+          {{ info('h-error-destino') }}
+        </div>
+      </div>
+       
+    </div>
+    <div>
+      <input type="date" min="{{date}}" id="myInput" formControlName="fecha">
+      
+      <div *ngIf="fecha.errors" class="label label-warning">
+        {{ fecha.errors | json }}
+        <div *ngIf="fecha.errors.required">
+          La fecha es requerida
+        </div>
+      </div>
+
+    </div>
+  </form>
+  
+  <div class="col-12 text-center">
+    {{ form.value | json }}
+  </div>
+  <div class="col-12 col-lg-6 align-self-center">
+    <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" alt="">
+  </div>
+  <div class="col-lg-6">
+    <h2>About Modern Business</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+  </div>
+  <div class="col-lg-6">
+    <h2>About Modern Business</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+  </div>
+  <div class="col-lg-6">
+    <h2>About Modern Business</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+  </div>
+  <div class="dropdown col-2">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+      Dropdown Example
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+  </div>
+</div>
