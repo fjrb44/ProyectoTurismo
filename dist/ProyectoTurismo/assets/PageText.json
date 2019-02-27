@@ -1,0 +1,367 @@
+{
+    "h-nombre": {
+        "esp": "Ronda Express",
+        "eng": "Ronda Express",
+        "fra": "Ronda Express"
+    },
+    "h-sobre": {
+        "esp": "Sobre nosotros",
+        "eng": "About us",
+        "fra": "À propos de nous"
+    },
+    "h-contact": {
+        "esp": "Contactanos",
+        "eng": "Contact us",
+        "fra": "Contactez nous"
+    },
+    "h-reserva": {
+        "esp": "Reserva",
+        "eng": "Reserve",
+        "fra": "Réservation"
+    },
+    "h-servicios": {
+        "esp": "Servicios",
+        "eng": "Servicies",
+        "fra": "Services"
+    },
+    "f-copy": {
+        "esp": "Copyright © Ronda Express",
+        "eng": "Copyright © Ronda Express",
+        "fra": "Droit d'auteur © Ronda Express"
+    },
+    "a-about": {
+        "esp": "Somos tres jóvenes emprendedores que, tras diversos estudios, nos hemos lanzado al mundo empresarial creando este servicio de transporte directo, discreto y apto para todo tipo de público, desde niños hasta personas con movilidad reducida. Queremos llevar a nuestra bella Ronda a todo aquel que desee descubrirla y conocerla, por lo que ponemos a tu disposición este autobús directo desde el aeropuerto de Málaga, reduciendo el tiempo de viaje hasta en una hora en comparación a las líneas regulares de autobús, invirtiendo en calidad por y para usted.",
+        "eng": "We are three young entrepreneurs who, after much studies, we have launched into the business world creating this direct transport service, which is discreet and suitable for all types of public, from children to people with reduced mobility. We want to bring our beautiful Ronda to anyone who wants to discover it. Investing in quality just for you; we offer a direct bus from the Málaga Airport that reduces up to 1 hour in time rather than the other regular bus lines.",
+        "fra": "On est trois jeunes entrepreneurs qui, après de longues études, on s’est lancé dans le monde des affaires en créant un service de transport direct, privé et adapté aux different types des clients, d’enfants à personnes à mobilité réduite, on veut ramener à notre magnifique Ronda toute personne qui désire la découvrir. Un investissement de qualité juste pour vous; on offer un tranfert depuis et vers l’aéroport de Málaga en arrivant à Ronda 1 heure plus tôt que les lignes régulières."
+    },
+    "a-join": {
+        "esp": "¡Elígenos y vive la experiencia!",
+        "eng": "Join us and live the experience!",
+        "fra": "Rejoignez-nous et vivez l’expérience!"
+    },
+    "h-error-origen": {
+        "esp": "El origen es requerido",
+        "eng": "Origin is required",
+        "fra": "L'origine est obligatoire"
+    },
+    "h-error-destino": {
+        "esp": "El destino es requerido",
+        "eng": "Destination is required",
+        "fra": "La destination est obligatoire"
+    },
+    "s-alquiler":{
+        "esp": "Alquiler de autocares en Málaga, Ronda Express",
+        "eng": "Hire of coaches in Malaga, Ronda Express",
+        "fra": "Location d'autocars à Málaga, Ronda Express"
+    },
+    "s-reserva":{
+        "esp": "Para reservar el transporte a la demanda el usuario deberá llamar al teléfono gratuito de la Junta de Málaga, 610 11 90 14 en horario de 9:00 h a 14:00 h, de lunes a viernes.",
+        "eng": "To reserve the transport on demand, the user must call the free phone number of the Malaga Board, 610 11 90 14, from 9:00 a.m. to 2:00 p.m., Monday through Friday.",
+        "fra": "Pour réserver le transport sur demande, l'utilisateur doit appeler le numéro gratuit de Málaga Board, 610 11 90 14, de 9h00 à 14h00 du lundi au vendredi."
+    },
+    "s-ofrecemos":{
+        "esp": "Ofrecemos a nuestros clientes, entre otros, los siguientes servicios:",
+        "eng": "We offer our clients, among others, the following services:",
+        "fra": "Nous offrons à nos clients, entre autres, les services suivants:"
+    },
+    "s-linea":{
+        "esp": "LÍNEA REGULAR AGP-RONDA",
+        "eng": "REGULAR LINE MALAGA-AGP RONDA",
+        "fra": "LIGNE REGULIER MÁLAGA-AGP RONDA"
+    },
+    "s-servicio":{
+        "esp": "SERVICIOS A LA DEMANDA",
+        "eng": "SERVICES TO THE DEMAND",
+        "fra": "SERVICES À LA DEMANDE"
+    },
+    "s-servicio-pres":{
+        "esp": "SERVICIOS DE PRESTACIÓN CONJUNTA",
+        "eng": "JOINT BENEFIT SERVICES",
+        "fra": "SERVICES CONJOINTS DE PRESTATIONS"
+    },
+    "s-servicios-dis":{
+        "esp": "SERVICIOS DISCRECIONALES",
+        "eng": "DISCRETIONARY SERVICES",
+        "fra": "SERVICES DISCRÉTIONNAIRES"
+    },
+    "s-circuitos":{
+        "esp": "Circuitos turísticos nacionales e internacionales.",
+        "eng": "National and international tourist circuits.",
+        "fra": "Circuits touristiques nationaux et internationaux."
+    },
+    "s-equipos":{
+        "esp": "Equipos deportivos.",
+        "eng": "Sport teams.",
+        "fra": "Équipement sportif"
+    },
+    "s-excursiones":{
+        "esp": "Excursiones variadas.",
+        "eng": "Varied excursions.",
+        "fra": "Excursions variées."
+    },
+    "a-titulo":{
+        "esp": "Autobuses en Ronda | Alquiler de Autocares con conductor en Ronda",
+        "eng": "Buses in Ronda | Coach hire with driver in Ronda",
+        "fra": "Bus à Ronda | Location d'autocars avec chauffeur à Ronda"
+    },
+    "a-inten":{
+        "esp": "Intentamos dar siempre los mejores servicios con nuestra flota de autocares que están en constante renovación y contando con los mejores fabricantes de autocares.",
+        "eng": "We try to always provide the best services with our fleet of coaches that are constantly renewing and counting on the best coach manufacturers.",
+        "fra": "Nous essayons de toujours fournir les meilleurs services avec notre flotte d'autocars qui ne cesse de se renouveler et qui comptent sur les meilleurs fabricants d'autocars."
+    },
+    "a-personal":{
+        "esp": "Disponemos del siguiente personal:",
+        "eng": "We have the following personnel:",
+        "fra": "Nous avons le personnel suivant:"
+    },
+    "a-dir":{
+        "esp": "Director",
+        "eng": "Director",
+        "fra": "Directeur"
+    },
+    "a-ad-per":{
+        "esp": "Administrativo Personal",
+        "eng": "Personal Administrative",
+        "fra": "Administratif personnel"
+    },
+    "a-ad-con":{
+        "esp": "Administrativo Contable",
+        "eng": "Administrative Accountant",
+        "fra": "Comptable administratif"
+    },
+    "a-jf":{
+        "esp": "Jefe de Tráfico",
+        "eng": "Traffic Chief",
+        "fra": "Chef de la circulation"
+    },
+    "a-cd":{
+        "esp": "Conductores",
+        "eng": "Drivers",
+        "fra": "Les chauffeurs"
+    },
+    "a-cond":{
+        "esp": "Sólo conductores con experiencia demostrada forman parte de nuestra plantilla",
+        "eng": "Only drivers with proven experience are part of our staff",
+        "fra": "Seuls des conducteurs expérimentés font partie de notre personnel"
+    },
+    "a-flor":{
+        "esp": "La labor de todos estos profesionales nos permite, día a día, transportar por carretera a decenas de viajeros.",
+        "eng": "The work of all these professionals allows us, day by day, to transport dozens of passengers by road.",
+        "fra": "Le travail de tous ces professionnels nous permet, jour après jour, de transporter des dizaines de passagers par la route."
+    },
+    "a-humanos":{
+        "esp": "Sí al personal humano y a la flota de autocares de última generación le sumamos unas amplias y modernas instalaciones, compuestas por las oficinas y cocheras; el resultado nos convierte en una compañía preparada para afrontar cualquier reto que se le presente.",
+        "eng": "Yes to the human staff and the fleet of last generation coaches we add a wide and modern facilities, composed of offices and garages; the result turns us into a company prepared to face any challenge that comes our way.",
+        "fra": "Oui au personnel humain et à la flotte d’entraîneurs de dernière génération, nous ajoutons des installations vastes et modernes, composées de bureaux et de garages; Ce résultat fait de nous une entreprise prête à relever tous les défis qui se présentent à nous."
+    },
+    "a-seguridad":{
+        "esp": "Seguridad",
+        "eng": "Security",
+        "fra": "La sécurité"
+    },
+    "a-s-cin":{
+        "esp": "Cinturones de seguridad",
+        "eng": "Seatbelts",
+        "fra": "Ceintures de sécurité"
+    },
+    "a-s-ve":{
+        "esp": "Vehículos ecológicos de última generación (SCR) Euro 6.",
+        "eng": "Ecological vehicles of last generation (SCR) Euro 6.",
+        "fra": "Véhicules écologiques de dernière génération (SCR) Euro 6."
+    },
+    "a-s-ant":{
+        "esp": "Sistema antideslizante de seguridad (ESP)",
+        "eng": "Security anti-slip system (ESP)",
+        "fra": "Système antidérapant de sécurité (ESP)"
+    },
+    "a-s-est":{
+        "esp": "Estructuras de autocares que cumplen con el reglamento E.C.E. R.66 antivuelco",
+        "eng": "Coach structures that comply with the E.C.E. R.66 anti-roll",
+        "fra": "Structures d’entraîneurs conformes aux normes E.C.E. R.66 anti-roulis"
+    },
+    "a-s-abs":{
+        "esp": "Sistema de frenos ABS",
+        "eng": "Brake system ABS",
+        "fra": "Système de freinage ABS"
+    },
+    "a-s-asr":{
+        "esp": "Sistema de tracción ASR",
+        "eng": "ASR traction system",
+        "fra": "Système de traction ASR"
+    },
+    "a-s-gps":{
+        "esp": "GPS",
+        "eng": "GPS",
+        "fra": "GPS"
+    },
+    "a-s-anti":{
+        "esp": "TS sensor antivuelco",
+        "eng": "TS anti-roll sensor",
+        "fra": "Capteur anti-roulis TS"
+    },
+    "a-s-bas":{
+        "esp": "Bas asistencia al frenado",
+        "eng": "Bas brake assistance",
+        "fra": "Assistance au freinage Bas"
+    },
+    "a-s-fat":{
+        "esp": "Detectar fatiga conductor",
+        "eng": "Detect driver fatigue",
+        "fra": "Détecter la fatigue du conducteur"
+    },
+    "a-s-sat":{
+        "esp": "Sistema de gestión de flotas y seguimiento de los vehículos por satélite",
+        "eng": "Fleet management system and vehicle tracking by satellite",
+        "fra": "Système de gestion de flotte et suivi de véhicules par satellite"
+    },
+    "a-conf":{
+        "esp": "Confort",
+        "eng": "Comfort",
+        "fra": "Le confort"
+    },
+    "a-c-wifi":{
+        "esp": "WIFI",
+        "eng": "WIFI",
+        "fra": "WIFI"
+    },
+    "a-c-car":{
+        "esp": "Cargadores USB",
+        "eng": "USB chargers",
+        "fra": "Chargeurs USB"
+    },
+    "a-c-sis":{
+        "esp": "Sistema de entretenimiento personalizado de películas VOD, música, GPS de localización en ruta y encuestas",
+        "eng": "Personalized entertainment system for VOD movies, music, route tracking GPS and surveys",
+        "fra": "Système de divertissement personnalisé pour films VOD, musique, GPS de suivi d'itinéraire et sondages"
+    },
+    "a-c-son":{
+        "esp": "Sonido individual",
+        "eng": "Individual sound",
+        "fra": "Son individuel"
+    },
+    "a-c-apo":{
+        "esp": "Apoya Pies",
+        "eng": "Footrest",
+        "fra": "Pieds d'appui"
+    },
+    "a-c-lz":{
+        "esp": "Luz individual",
+        "eng": "Individual light",
+        "fra": "Lumière individuelle"
+    },
+    "a-c-dvd":{
+        "esp": "DVD",
+        "eng": "DVD",
+        "fra": "DVD"
+    },
+    "a-c-mus":{
+        "esp": "Música ambiental",
+        "eng": "Ambiental music",
+        "fra": "Musique environnementale"
+    },
+    "a-c-nev":{
+        "esp": "Nevera",
+        "eng": "Fridge",
+        "fra": "Réfrigérateur"
+    },
+    "a-c-wc":{
+        "esp": "WC",
+        "eng": "Toilet",
+        "fra": "Toilettes"
+    },
+    "at-cn":{
+        "esp": "Contacta con nosotros",
+        "eng": "Contact us",
+        "fra": "Contactez-nous"
+    },
+    "at-si":{
+        "esp": "Si tienes cualquier duda sobre nuestros horarios o servicios no dudes en ponerte en contacto con nosotros. Trataremos de responderte lo antes posible.",
+        "eng": "If you have any questions about our schedules or services do not hesitate to contact us. We will try to answer you as soon as possible.",
+        "fra": "Si vous avez des questions sur nos horaires ou nos services, n'hésitez pas à nous contacter. Nous essaierons de vous répondre dans les meilleurs délais."
+    },
+    "at-ho":{
+        "esp": "HORARIO DE OFICINA:",
+        "eng": "OFFICE HOURS:",
+        "fra": "LES HEURES DE BUREAU:"
+    },
+    "at-hor":{
+        "esp": "De lunes a viernes de 9.30 a 13.30 horas y de 15.30 a 19.00 horas",
+        "eng": "From Monday to Friday from 9.30 am to 1.30 pm and from 3.30 pm to 7 pm",
+        "fra": "Du lundi au vendredi de 9h30 à 13h30 et de 15h30 à 19h00"
+    },
+    "at-nam":{
+        "esp": "Nombre",
+        "eng": "First name",
+        "fra": "Nom"
+    },
+    "at-pl-nam":{
+        "esp": "Introduce tu nombre",
+        "eng": "Introduce your name",
+        "fra": "Entrez votre nom"
+    },
+    "at-cor":{
+        "esp": "Correo Electrónico",
+        "eng": "Email",
+        "fra": "Courrier électronique"
+    },
+    "at-pl-cor":{
+        "esp": "Introduce tu correo electrónico",
+        "eng": "Enter your email",
+        "fra": "Entrez votre email"
+    },
+    "at-tlf":{
+        "esp": "Teléfono",
+        "eng": "Phone",
+        "fra": "Téléphone"
+    },
+    "at-pl-tlf":{
+        "esp": "Introduce tu teléfono",
+        "eng": "Enter your phone",
+        "fra": "Entrez votre téléphone"
+    },
+    "at-mnj":{
+        "esp": "Mensaje",
+        "eng": "Message",
+        "fra": "Message"
+    },
+    "at-pl-mnj":{
+        "esp": "Introduce tu mensaje",
+        "eng": "Enter your message",
+        "fra": "Entrez votre message"
+    },
+    "at-env":{
+        "esp": "Enviar",
+        "eng": "Submit",
+        "fra": "Envoyer"
+    },
+    "at-success":{
+        "esp": "Se ha enviado correctamente",
+        "eng": "It has been sent correctly",
+        "fra": "Il a été envoyé correctement"
+    },
+    "at-r-na":{
+        "esp": "El campo nombre es requerido",
+        "eng": "The name field is required",
+        "fra": "Le nom est obligatoire"
+    },
+    "at-r-ma":{
+        "esp": "El campo email es requerido",
+        "eng": "The email field is required",
+        "fra": "Le champ email est obligatoire"
+    },
+    "at-r-inv":{
+        "esp": "El correo es invalido",
+        "eng": "The mail is invalid",
+        "fra": "Le mail est invalide"
+    },
+    "at-r-tlf":{
+        "esp": "El formato del teléfono es erróneo, solo puede tener numeros y no pueden estar separados por espacios. Ej: 123456789",
+        "eng": "The format of the phone is wrong, it can only have numbers and can not be separated by spaces. Ex: 123456789",
+        "fra": "Le format du téléphone est incorrect, il ne peut avoir que des chiffres et ne peut pas être séparé par des espaces. Ex: 123456789"
+    },
+    "at-r-msj":{
+        "esp": "El campo mensaje es requerido",
+        "eng": "The message field is required",
+        "fra": "Le champ de message est obligatoire"
+    }
+}

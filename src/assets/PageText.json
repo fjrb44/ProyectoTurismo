@@ -333,5 +333,35 @@
         "esp": "Enviar",
         "eng": "Submit",
         "fra": "Envoyer"
+    },
+    "at-success":{
+        "esp": "Se ha enviado correctamente",
+        "eng": "It has been sent correctly",
+        "fra": "Il a été envoyé correctement"
+    },
+    "at-r-na":{
+        "esp": "El campo nombre es requerido",
+        "eng": "The name field is required",
+        "fra": "Le nom est obligatoire"
+    },
+    "at-r-ma":{
+        "esp": "El campo email es requerido",
+        "eng": "The email field is required",
+        "fra": "Le champ email est obligatoire"
+    },
+    "at-r-inv":{
+        "esp": "El correo es invalido",
+        "eng": "The mail is invalid",
+        "fra": "Le mail est invalide"
+    },
+    "at-r-tlf":{
+        "esp": "El formato del teléfono es erróneo, solo puede tener numeros y no pueden estar separados por espacios. Ej: 123456789",
+        "eng": "The format of the phone is wrong, it can only have numbers and can not be separated by spaces. Ex: 123456789",
+        "fra": "Le format du téléphone est incorrect, il ne peut avoir que des chiffres et ne peut pas être séparé par des espaces. Ex: 123456789"
+    },
+    "at-r-msj":{
+        "esp": "El campo mensaje es requerido",
+        "eng": "The message field is required",
+        "fra": "Le champ de message est obligatoire"
     }
 }

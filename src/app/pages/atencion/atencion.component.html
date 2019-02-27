@@ -1,4 +1,7 @@
-<article>
+<article (click)="cerrarMensaje()">
+  <div *ngIf="exito" class="alert alert-success" >
+    {{ info('at-success') }}
+  </div>
 
   <div class="container">
     <h2>
@@ -15,28 +18,31 @@
         <label for="nombre">{{ info('at-nam') }}</label>
         <input id="nombre" type="text" placeholder="{{ info('at-pl-nam') }}" class="form-control" formControlName="nombre">
         <div *ngIf="nombre.invalid && (nombre.touched || nombre.dirty)" class="alert alert-danger">
-          <div *ngIf="nombre.errors.required">El campo mensaje es requerido</div>
+          <div *ngIf="nombre.errors.required">{{ info('at-r-na') }}</div>
         </div>
       </div>
       <div class="form-group">
         <label for="correo">{{ info('at-cor') }}</label>
         <input id="correo" type="email" placeholder="{{ info('at-pl-cor') }}" class="form-control" formControlName="correo">
         <div *ngIf="correo.invalid && (correo.touched || correo.dirty)" class="alert alert-danger">
-          <div *ngIf="correo.errors.required">El campo mensaje es requerido</div>
+          <div *ngIf="correo.errors.required">{{ info('at-r-ma') }}</div>
+          <div *ngIf="correo.errors.pattern">{{ info('at-r-inv') }}</div>
         </div>
       </div>
       <div class="form-group">
         <label for="telefono">{{ info('at-tlf') }}</label>
         <input id="telefono" type="text" class="form-control" placeholder="{{ info('at-pl-tlf') }}" formControlName="telefono">
         <div *ngIf="telefono.invalid && (telefono.touched || telefono.dirty)" class="alert alert-danger">
-          telefono algo
+          <div *ngIf="telefono.errors.pattern">
+            {{ info('at-r-tlf') }}
+          </div>
         </div>
       </div>
       <div class="form-group">
         <label for="mensaje">{{ info('at-mnj') }}</label>
         <textarea class="form-control" id="mensaje" rows="5" placeholder="{{ info('at-mnj') }}" formControlName="mensaje"></textarea>
         <div *ngIf="mensaje.invalid && (mensaje.touched || mensaje.dirty)" class="alert alert-danger">
-          <div *ngIf="mensaje.errors.required">El campo mensaje es requerido</div>
+          <div *ngIf="mensaje.errors.required">{{ info('at-r-msj') }}</div>
         </div>
       </div>
       <div class="form-group text-center">
