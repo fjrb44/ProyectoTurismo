@@ -403,5 +403,11 @@
         "esp": "Se ha pedido el ticket correctamente",
         "eng": "The ticket has been requested correctly",
         "fra": "Le ticket a été demandé correctement"
+    }, 
+    "n-f":{
+        "esp": "Error 404, página no encontrada.",
+        "eng": "404 Error, page not found.",
+        "fra": "Erreur 404, page non trouvée."
     }
+
 }
