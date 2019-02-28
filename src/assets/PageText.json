@@ -363,5 +363,45 @@
         "esp": "El campo mensaje es requerido",
         "eng": "The message field is required",
         "fra": "Le champ de message est obligatoire"
+    },
+    "h-or":{
+        "esp": "Origen",
+        "eng": "Origin",
+        "fra": "Origine"
+    },
+    "h-des":{
+        "esp": "Destino",
+        "eng": "Destination",
+        "fra": "La destination"
+    },
+    "h-fe":{
+        "esp": "Fecha",
+        "eng": "Date",
+        "fra": "Date"
+    },
+    "h-fe-req":{
+        "esp": "La fecha es requerida",
+        "eng": "The date is required",
+        "fra": "La date est requise"
+    },
+    "h-fe-today":{
+        "esp": "La fecha debe ser posterior a hoy",
+        "eng": "The date must be later than today",
+        "fra": "La date doit être postérieure à aujourd'hui"
+    },
+    "h-fe-future":{
+        "esp": "La fecha debe estar comprendida hasta dentro de 2 años",
+        "eng": "The date must be included within 2 years",
+        "fra": "La date doit être incluse dans les 2 ans"
+    },
+    "h-wrong":{
+        "esp": "La fecha ha sido mal introducida",
+        "eng": "The date has been poorly introduced",
+        "fra": "La date a été mal introduite"
+    },
+    "h-ticket":{
+        "esp": "Se ha pedido el ticket correctamente",
+        "eng": "The ticket has been requested correctly",
+        "fra": "Le ticket a été demandé correctement"
     }
 }
