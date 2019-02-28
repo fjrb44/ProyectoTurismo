@@ -55,8 +55,16 @@ export class DateValidator {
                 }
             }
 
-            if (year < currentTaxYear || month < currentMonth || day < currentDay) {
+            if (year < currentTaxYear) {
                 return { 'prevDate': true };
+            }else if(year == currentTaxYear){
+                if(month < currentMonth){
+                    return { "prevDate": true };
+                }else if(month == currentMonth){
+                    if(day < currentDay ){
+                        return { "prevDate": true };
+                    }
+                }
             }
             if( year > (currentTaxYear+2)){
                 return {"tooLate": true}

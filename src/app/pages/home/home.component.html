@@ -37,7 +37,6 @@
       <input id="fecha" type="date" min="{{date}}" id="myInput" formControlName="fecha" class="form-control">
 
       <div *ngIf="fecha.errors && (fecha.touched || fecha.dirty)" class="alert alert-danger">
-        {{ fecha.errors | json }}
         <div *ngIf="fecha.errors.required">
             {{ info('h-fe-req') }}
         </div>
