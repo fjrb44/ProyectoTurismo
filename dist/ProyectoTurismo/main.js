@@ -153,9 +153,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _shared_header_header_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./shared/header/header.component */ "./src/app/shared/header/header.component.ts");
 /* harmony import */ var _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./shared/footer/footer.component */ "./src/app/shared/footer/footer.component.ts");
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
 
 
 
@@ -180,9 +178,8 @@ var AppModule = /** @class */ (function () {
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"],
-                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__["BrowserAnimationsModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_9__["FormsModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_9__["ReactiveFormsModule"]
+                _angular_forms__WEBPACK_IMPORTED_MODULE_8__["FormsModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_8__["ReactiveFormsModule"]
             ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
@@ -213,7 +210,7 @@ module.exports = ".black{\r\n    color: #000;\r\n}\r\nul{\r\n    color: green;  
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <div class=\"row justify-content-center mb-3\">\n    <h2>\n        <span class=\"black\">\n          {{ info('a-titulo') }}\n        </span>\n    </h2>\n    <p>\n      {{ info('a-about') }}\n    </p>\n    <h2>\n      {{ info('a-join') }}\n    </h2>\n  </div>\n  <div class=\"row\">\n    <article class=\"col-lg-6 border-right border-right-success\">\n      <p>{{ info('a-inten') }}</p>\n      <h3>{{ info('a-personal') }}</h3>\n      <ul>\n        <li>{{ info('a-dir') }}</li>\n        <li>{{ info('a-ad-per') }}</li>\n        <li>{{ info('a-ad-con') }}</li>\n        <li>{{ info('a-jf') }}</li>\n        <li>{{ info('a-cd') }}</li>\n      </ul>\n    </article>\n    <article class=\"col-lg-6\">\n      <h2 class=\"black\">\n          {{ info('a-cond') }}\n      </h2>\n      <p>\n        {{ info('a-flor') }}\n      </p>\n      <p>{{ info('a-humanos') }}</p>\n    </article>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-lg-5 border-right border-right-success\">\n      <h4 class=\"text-center\">\n        {{ info('a-seguridad') }}\n      </h4>\n      <img src=\"http://abagon.proconsidynamiza.es/wp-content/uploads/2018/01/15a4564ac5cc77ae10afde10768feaab69b0b6b3-e1516956666977-300x54.jpg\" alt=\"\" width=\"100%\" height=\"auto\">\n      <ul class=\"mt-3\">\n        <li>{{ info('a-s-cin') }}</li>\n        <li>{{ info('a-s-ve') }}</li>\n        <li>{{ info('a-s-ant') }}</li>\n        <li>{{ info('a-s-est') }}</li>\n        <li>{{ info('a-s-abs') }}</li>\n        <li>{{ info('a-s-asr') }}</li>\n        <li>{{ info('a-s-gps') }}</li>\n        <li>{{ info('a-s-anti') }}</li>\n        <li>{{ info('a-s-bas') }}</li>\n        <li>{{ info('a-s-fat') }}</li>\n        <li>{{ info('a-s-sat') }}</li>\n      </ul>\n    </div>\n    <div class=\"col-lg-7\">\n      <h4 class=\"text-center\">{{ info('a-conf') }}</h4>\n      <img src=\"http://abagon.proconsidynamiza.es/wp-content/uploads/2018/01/382790ced6da7e4fdf4258318e594f1fe5c34c6e-e1516956731647-300x38.jpg\"\n        alt=\"\" width=\"100%\" height=\"auto\">\n      <div class=\"row mt-3\">\n        <img class=\"col-lg-5\" src=\"https://www.abagon.es/wp-content/uploads/2017/12/IMG-20160419-WA0025-350x220.jpg\" width=\"350\" height=\"220\" alt=\"\">\n        <ul class=\"col-lg-7\">\n          <li>{{ info('a-c-wifi') }}</li>\n          <li>{{ info('a-c-car') }}</li>\n          <li>{{ info('a-c-sis') }}</li>\n          <li>{{ info('a-c-son') }}</li>\n          <li>{{ info('a-c-apo') }}</li>\n          <li>{{ info('a-c-lz') }}</li>\n          <li>{{ info('a-c-dvd') }}</li>\n          <li>{{ info('a-c-mus') }}</li>\n          <li>{{ info('a-c-nev') }}</li>\n          <li>{{ info('a-c-wc') }}</li>\n        </ul>\n      </div>\n\n    </div>\n  </div>\n</div>\n<!--\n\n  <h2>Preguntas frecuentes</h2>\n<p>¿Tiene alguna otra duda?</p>\n<p>Contactar</p>\n\n<span>\n  ¿A qué teléfono pueden llamar los viajeros para hacer la reserva del \"transporte a la demanda”?\n</span>\n<p>\n  Pueden llamar al teléfono gratuito de la Junta de Castilla y León 900 204 020 en horario de 9,00 h a 14,00 h., de lunes a viernes.\n</p>\n<span>\n  ¿Qué equipaje se puede llevar?\n</span>\n<p>\n  El viajero tiene derecho a transportar una maleta sin coste adicional.\n</p>\n<p>\n  La vigilancia del equipaje de mano es responsabilidad del viajero al que acompañan.\n</p>\n<p>\n  En la bodega pueden transportarse bicicletas u otros objetos siempre y cuando exista\n  espacio suficiente en la misma y no haya riesgo de dañar al resto de los equipajes. El\n  transporte de estos objetos se realizarán mediante el  pago de un billete especial.\n</p>\n<p>\n  Las bicicletas u otros objetos  deberán viajar embaladas adecuadamente para evitar\n  desperfectos en las mismas y al resto del equipaje. Asimismo, deberán llevar un\n  sistema para sujetarlas a la carrocería del vehículo. Deberán sacar el billete con\n  anterioridad.\n</p>\n<p>\n  Las sillas de ruedas propiedad de los viajeros serán transportadas de forma gratuita.\n</p>\n<span class=\"\">\n  ¿Qué normas son de aplicación una vez en el interior del autobús?\n</span>\n<p>\n  No se hablará con el conductor a menos que sea imprescindible.\n</p>\n<p>\n  Se seguirán las indicaciones del conductor en todo momento, especialmente en caso de\n  que se produjeran situaciones excepcionales o de emergencia.\n</p>\n<p>\n  Se usarán los agarraderos para evitar caídas.\n</p>\n<p>\n  Se evitará permanecer en las zonas de pasillo y de salida.\n</p>\n<p>\n  Tendrán que viajar sentados y se respetará la prioridad de asiento reservado para las\n   personas de movilidad reducida (invidentes, personas con muletas, embarazadas,\n  personas con niños,…..).\n</p>\n<p>\n  Cuando se utilice el teléfono móvil se procurará hablar en un tono bajo para no\n  molestar al resto de viajeros.\n</p>\n<p>\n  No está permitido fumar, comer o consumir bebidas alcohólicas.\n</p>\n<span class=\"\">\n  ¿Cómo puedo dar mi opinión sobre el servicio recibido?\n</span>\n<p>\n  En el interior de nuestros autocares encontrará en la mampara detrás del conductor un\n  cartel con el código QR (BIDI) y un enlace que te lleva directo a la encuesta, para que\n  accedas de la forma que te sea más cómoda.\n</p>\n<span class=\"\">\n  ¿Dónde puedo informarme sobre un objeto perdido?\n</span>\n<p>\n  Puede solicitar información contactando con nuestra oficina en el teléfono de atención\n  al cliente 979851336 en horarios de 9,30h a 13,30 h y de 15,30h a 19,00 h.\n</p>\n<p>\n  Para facilitar la localización del mismo es importante que aporte la máxima información\n  posible.\n</p>\n<span class=\"\">\n  ¿Puedo viajar con mi mascota?\n</span>\n<p>\n  Su mascota puede viajar en caja homologada y en el maletero del vehículo. Por ley solo\n  podrán viajar en el interior los perros lazarillo. El viajero será en todo momento el\n  responsable de la mascota.\n</p>\n<p>\n  Sólo se permitirá una mascota por autobús y para ello, deberá adquirir su billete con\n  antelación.\n</p>\n<p>\n   Seguridad en los trayectos\n</p>\n<p>\n  Autocares Abagon cuenta con los vehículos más modernos equipados con lo último en tecnología para\n  la seguridad de sus viajeros.\n</p>\n<p>\n  Máxima puntualidad\n</p>\n<p>Ofrecemos la máxima puntualidad posible para cumplimiento de los horarios de salida y llegada a\n  los destinos según los horarios programados. \n</p>\n<p>\n  Soporte telefónico:\n</p>\n<p>\n  979 851 336 \n</p>\n<p>\n  Llámanos si tiene cualquier duda sobre nuestros servicios o trayectos. Estaremos encantados de\n  atenderle en horario de Lun - Vier: de 9:30h a 13:30h y de 15:30h a 19:00h.\n</p>\n-->"
+module.exports = "<div class=\"container\">\n  <div class=\"row justify-content-center mb-3\">\n    <h2>\n        <span class=\"black\">\n          {{ info('a-titulo') }}\n        </span>\n    </h2>\n    <p>\n      {{ info('a-about') }}\n    </p>\n    <h2>\n      {{ info('a-join') }}\n    </h2>\n  </div>\n  <div class=\"row\">\n    <article class=\"col-lg-6 border-right border-right-success\">\n      <p>{{ info('a-inten') }}</p>\n      <h3>{{ info('a-personal') }}</h3>\n      <ul>\n        <li>{{ info('a-dir') }}</li>\n        <li>{{ info('a-ad-per') }}</li>\n        <li>{{ info('a-ad-con') }}</li>\n        <li>{{ info('a-jf') }}</li>\n        <li>{{ info('a-cd') }}</li>\n      </ul>\n    </article>\n    <article class=\"col-lg-6\">\n      <h2 class=\"black\">\n          {{ info('a-cond') }}\n      </h2>\n      <p>\n        {{ info('a-flor') }}\n      </p>\n      <p>{{ info('a-humanos') }}</p>\n    </article>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-lg-5 border-right border-right-success\">\n      <h4 class=\"text-center\">\n        {{ info('a-seguridad') }}\n      </h4>\n      <img src=\"../../../assets/img/safety.jpg\" alt=\"\" width=\"100%\" height=\"auto\">\n      <ul class=\"mt-3\">\n        <li>{{ info('a-s-cin') }}</li>\n        <li>{{ info('a-s-ve') }}</li>\n        <li>{{ info('a-s-ant') }}</li>\n        <li>{{ info('a-s-est') }}</li>\n        <li>{{ info('a-s-abs') }}</li>\n        <li>{{ info('a-s-asr') }}</li>\n        <li>{{ info('a-s-gps') }}</li>\n        <li>{{ info('a-s-anti') }}</li>\n        <li>{{ info('a-s-bas') }}</li>\n        <li>{{ info('a-s-fat') }}</li>\n        <li>{{ info('a-s-sat') }}</li>\n      </ul>\n    </div>\n    <div class=\"col-lg-7\">\n      <h4 class=\"text-center\">{{ info('a-conf') }}</h4>\n      <img src=\"../../../assets/img/conf.jpg\"\n        alt=\"\" width=\"100%\" height=\"auto\">\n      <div class=\"row mt-3\">\n        <img class=\"col-lg-5\" src=\"../../../assets/img/sillones.jpg\" width=\"350\" height=\"220\" alt=\"\">\n        <ul class=\"col-lg-7\">\n          <li>{{ info('a-c-wifi') }}</li>\n          <li>{{ info('a-c-car') }}</li>\n          <li>{{ info('a-c-sis') }}</li>\n          <li>{{ info('a-c-son') }}</li>\n          <li>{{ info('a-c-apo') }}</li>\n          <li>{{ info('a-c-lz') }}</li>\n          <li>{{ info('a-c-dvd') }}</li>\n          <li>{{ info('a-c-mus') }}</li>\n          <li>{{ info('a-c-nev') }}</li>\n          <li>{{ info('a-c-wc') }}</li>\n        </ul>\n      </div>\n\n    </div>\n  </div>\n</div>\n<!--\n\n  <h2>Preguntas frecuentes</h2>\n<p>¿Tiene alguna otra duda?</p>\n<p>Contactar</p>\n\n<span>\n  ¿A qué teléfono pueden llamar los viajeros para hacer la reserva del \"transporte a la demanda”?\n</span>\n<p>\n  Pueden llamar al teléfono gratuito de la Junta de Castilla y León 900 204 020 en horario de 9,00 h a 14,00 h., de lunes a viernes.\n</p>\n<span>\n  ¿Qué equipaje se puede llevar?\n</span>\n<p>\n  El viajero tiene derecho a transportar una maleta sin coste adicional.\n</p>\n<p>\n  La vigilancia del equipaje de mano es responsabilidad del viajero al que acompañan.\n</p>\n<p>\n  En la bodega pueden transportarse bicicletas u otros objetos siempre y cuando exista\n  espacio suficiente en la misma y no haya riesgo de dañar al resto de los equipajes. El\n  transporte de estos objetos se realizarán mediante el  pago de un billete especial.\n</p>\n<p>\n  Las bicicletas u otros objetos  deberán viajar embaladas adecuadamente para evitar\n  desperfectos en las mismas y al resto del equipaje. Asimismo, deberán llevar un\n  sistema para sujetarlas a la carrocería del vehículo. Deberán sacar el billete con\n  anterioridad.\n</p>\n<p>\n  Las sillas de ruedas propiedad de los viajeros serán transportadas de forma gratuita.\n</p>\n<span class=\"\">\n  ¿Qué normas son de aplicación una vez en el interior del autobús?\n</span>\n<p>\n  No se hablará con el conductor a menos que sea imprescindible.\n</p>\n<p>\n  Se seguirán las indicaciones del conductor en todo momento, especialmente en caso de\n  que se produjeran situaciones excepcionales o de emergencia.\n</p>\n<p>\n  Se usarán los agarraderos para evitar caídas.\n</p>\n<p>\n  Se evitará permanecer en las zonas de pasillo y de salida.\n</p>\n<p>\n  Tendrán que viajar sentados y se respetará la prioridad de asiento reservado para las\n   personas de movilidad reducida (invidentes, personas con muletas, embarazadas,\n  personas con niños,…..).\n</p>\n<p>\n  Cuando se utilice el teléfono móvil se procurará hablar en un tono bajo para no\n  molestar al resto de viajeros.\n</p>\n<p>\n  No está permitido fumar, comer o consumir bebidas alcohólicas.\n</p>\n<span class=\"\">\n  ¿Cómo puedo dar mi opinión sobre el servicio recibido?\n</span>\n<p>\n  En el interior de nuestros autocares encontrará en la mampara detrás del conductor un\n  cartel con el código QR (BIDI) y un enlace que te lleva directo a la encuesta, para que\n  accedas de la forma que te sea más cómoda.\n</p>\n<span class=\"\">\n  ¿Dónde puedo informarme sobre un objeto perdido?\n</span>\n<p>\n  Puede solicitar información contactando con nuestra oficina en el teléfono de atención\n  al cliente 979851336 en horarios de 9,30h a 13,30 h y de 15,30h a 19,00 h.\n</p>\n<p>\n  Para facilitar la localización del mismo es importante que aporte la máxima información\n  posible.\n</p>\n<span class=\"\">\n  ¿Puedo viajar con mi mascota?\n</span>\n<p>\n  Su mascota puede viajar en caja homologada y en el maletero del vehículo. Por ley solo\n  podrán viajar en el interior los perros lazarillo. El viajero será en todo momento el\n  responsable de la mascota.\n</p>\n<p>\n  Sólo se permitirá una mascota por autobús y para ello, deberá adquirir su billete con\n  antelación.\n</p>\n<p>\n   Seguridad en los trayectos\n</p>\n<p>\n  Autocares Abagon cuenta con los vehículos más modernos equipados con lo último en tecnología para\n  la seguridad de sus viajeros.\n</p>\n<p>\n  Máxima puntualidad\n</p>\n<p>Ofrecemos la máxima puntualidad posible para cumplimiento de los horarios de salida y llegada a\n  los destinos según los horarios programados. \n</p>\n<p>\n  Soporte telefónico:\n</p>\n<p>\n  979 851 336 \n</p>\n<p>\n  Llámanos si tiene cualquier duda sobre nuestros servicios o trayectos. Estaremos encantados de\n  atenderle en horario de Lun - Vier: de 9:30h a 13:30h y de 15:30h a 19:00h.\n</p>\n-->"
 
 /***/ }),
 
@@ -374,7 +371,7 @@ var AtencionComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "[type=\"date\"] {\r\n    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;\r\n}\r\n\r\n[type=\"date\"]::-webkit-inner-spin-button {\r\n    display: none;\r\n}\r\n\r\n[type=\"date\"]::-webkit-calendar-picker-indicator {\r\n    opacity: 0;\r\n}\r\n\r\ninput, select {\r\n    border: 1px solid #c4c4c4;\r\n    border-radius: 5px;\r\n    background-color: #fff;\r\n    padding: 3px 5px;\r\n    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);\r\n    width: 190px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSw0SEFBNEg7QUFDaEk7O0FBRUE7SUFDSSxhQUFhO0FBQ2pCOztBQUVBO0lBQ0ksVUFBVTtBQUNkOztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLGtCQUFrQjtJQUNsQixzQkFBc0I7SUFDdEIsZ0JBQWdCO0lBQ2hCLDJDQUEyQztJQUMzQyxZQUFZO0FBQ2hCIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJbdHlwZT1cImRhdGVcIl0ge1xyXG4gICAgYmFja2dyb3VuZDojZmZmIHVybChodHRwczovL2NkbjEuaWNvbmZpbmRlci5jb20vZGF0YS9pY29ucy9jY19tb25vX2ljb25fc2V0L2JsYWNrcy8xNngxNi9jYWxlbmRhcl8yLnBuZykgIDk3JSA1MCUgbm8tcmVwZWF0IDtcclxufVxyXG5cclxuW3R5cGU9XCJkYXRlXCJdOjotd2Via2l0LWlubmVyLXNwaW4tYnV0dG9uIHtcclxuICAgIGRpc3BsYXk6IG5vbmU7XHJcbn1cclxuXHJcblt0eXBlPVwiZGF0ZVwiXTo6LXdlYmtpdC1jYWxlbmRhci1waWNrZXItaW5kaWNhdG9yIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbn1cclxuXHJcbmlucHV0LCBzZWxlY3Qge1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgI2M0YzRjNDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICBwYWRkaW5nOiAzcHggNXB4O1xyXG4gICAgYm94LXNoYWRvdzogaW5zZXQgMCAzcHggNnB4IHJnYmEoMCwwLDAsMC4xKTtcclxuICAgIHdpZHRoOiAxOTBweDtcclxufSJdfQ== */"
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2hvbWUvaG9tZS5jb21wb25lbnQuY3NzIn0= */"
 
 /***/ }),
 
@@ -385,7 +382,7 @@ module.exports = "[type=\"date\"] {\r\n    background:#fff url(https://cdn1.icon
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n\n  <form class=\"col-12 text-center\" [formGroup]=\"form\">\n    <div>\n      <select id=\"\" formControlName=\"origen\">\n        <option value=\"\" disabled hidden selected>Origen...</option>\n        <option value=\"Londres\">Londres</option>\n      </select>\n      \n      <div *ngIf=\"origen.errors && (origen.touched || origen.dirty)\" class=\"label label-warning\">\n        <div *ngIf=\"origen.errors.required\">\n          {{ info('h-error-origen') }}\n        </div>\n      </div>\n\n    </div>\n    <div>\n      <select id=\"\" formControlName=\"destino\">\n        <option value=\"\" disabled hidden selected>Destino...</option>\n      </select>\n      \n      <div *ngIf=\"destino.invalid && (destino.touched || destino.dirty)\" class=\"label label-warning\">\n        <div *ngIf=\"destino.errors.required\">\n          {{ info('h-error-destino') }}\n        </div>\n      </div>\n       \n    </div>\n    <div>\n      <input type=\"date\" min=\"{{date}}\" id=\"myInput\" formControlName=\"fecha\">\n      \n      <div *ngIf=\"fecha.errors\" class=\"label label-warning\">\n        {{ fecha.errors | json }}\n        <div *ngIf=\"fecha.errors.required\">\n          La fecha es requerida\n        </div>\n      </div>\n\n    </div>\n  </form>\n  \n  <div class=\"col-12 text-center\">\n    {{ form.value | json }}\n  </div>\n  <div class=\"col-12 col-lg-6 align-self-center\">\n    <img class=\"img-fluid rounded mb-4\" src=\"http://placehold.it/750x450\" alt=\"\">\n  </div>\n  <div class=\"col-lg-6\">\n    <h2>About Modern Business</h2>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>\n  </div>\n  <div class=\"col-lg-6\">\n    <h2>About Modern Business</h2>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>\n  </div>\n  <div class=\"col-lg-6\">\n    <h2>About Modern Business</h2>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>\n  </div>\n  <div class=\"dropdown col-2\">\n    <button class=\"btn btn-primary dropdown-toggle\" type=\"button\" data-toggle=\"dropdown\">\n      Dropdown Example\n      <span class=\"caret\"></span>\n    </button>\n    <ul class=\"dropdown-menu\">\n      <li><a href=\"#\">HTML</a></li>\n      <li><a href=\"#\">CSS</a></li>\n      <li><a href=\"#\">JavaScript</a></li>\n    </ul>\n  </div>\n</div>"
+module.exports = "<div class=\"container\" (click)=\"cerrarMensaje()\">\n\n  <div *ngIf=\"success\" class=\"alert alert-success\">\n    {{ info('h-ticket') }}\n  </div>\n  <form class=\"mt-5\" [formGroup]=\"form\" (ngSubmit)=\"onSubmit()\">\n    <div class=\"form-group\">\n      <label for=\"origen\">{{ info('h-or') }}</label>\n      <select id=\"origen\" formControlName=\"origen\" class=\"form-control\">\n        <option value=\"\" disabled hidden selected>{{ info('h-or') }}...</option>\n        <option *ngFor=\"let or of origenes\" value=\"{{or}}\">{{or}}</option>\n      </select>\n\n      <div *ngIf=\"origen.errors && (origen.touched || origen.dirty)\" class=\"alert alert-danger\">\n        <div *ngIf=\"origen.errors.required\">\n          {{ info('h-error-origen') }}\n        </div>\n      </div>\n\n    </div>\n    <div class=\"form-group\">\n      <label for=\"destino\">{{ info('h-des') }}</label>\n      <select id=\"destino\" formControlName=\"destino\" class=\"form-control centrar\">\n        <option value=\"\" disabled hidden selected>{{ info('h-des') }}...</option>\n        <option *ngFor=\"let des of destinos\" value=\"{{des}}\">{{des}}</option>\n      </select>\n\n      <div *ngIf=\"destino.invalid && (destino.touched || destino.dirty)\" class=\"alert alert-danger\">\n        <div *ngIf=\"destino.errors.required\">\n          {{ info('h-error-destino') }}\n        </div>\n      </div>\n\n    </div>\n    <div class=\"form-group\">\n      <label for=\"fecha\">{{ info('h-fe') }}</label>\n      <input id=\"fecha\" type=\"date\" min=\"{{date}}\" id=\"myInput\" formControlName=\"fecha\" class=\"form-control\">\n\n      <div *ngIf=\"fecha.errors && (fecha.touched || fecha.dirty)\" class=\"alert alert-danger\">\n        {{ fecha.errors | json }}\n        <div *ngIf=\"fecha.errors.required\">\n            {{ info('h-fe-req') }}\n        </div>\n        <div *ngIf=\"fecha.errors.prevDate\">\n            {{ info('h-fe-today') }}\n        </div>\n        <div *ngIf=\"fecha.errors.tooLate\">\n            {{ info('h-fe-future') }}\n        </div>\n        <div *ngIf=\"fecha.errors.dateInvalid\">\n            {{ info('h-wrong') }}\n        </div>\n      </div>\n\n    </div>\n    <div class=\"form-group text-center\">\n      <button type=\"submit\" class=\"btn btn-success\" [disabled]=\"form.invalid\">{{ info('at-env') }}</button>\n    </div>\n  </form>\n</div>"
 
 /***/ }),
 
@@ -403,6 +400,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
 /* harmony import */ var src_app_service_idioma_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/service/idioma.service */ "./src/app/service/idioma.service.ts");
+/* harmony import */ var src_app_validator_dateValidator__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/validator/dateValidator */ "./src/app/validator/dateValidator.ts");
+
 
 
 
@@ -415,6 +414,17 @@ var HomeComponent = /** @class */ (function () {
     HomeComponent.prototype.ngOnInit = function () {
         this.today();
         this.crearForm();
+        this.success = false;
+        this.origenes = [
+            "AGP Málaga Centro",
+            "AGP Málaga Victoria Kent"
+        ];
+        this.destinos = [
+            "Ronda, Hotel Ronda Moments",
+            "Ronda, Hotel Molino del Arco",
+            "Ronda, Hotel Maestranza",
+            "Ronda, Hotel Polo"
+        ];
     };
     HomeComponent.prototype.info = function (id) {
         return this.idioma.getData(id);
@@ -423,7 +433,7 @@ var HomeComponent = /** @class */ (function () {
         this.form = this.fb.group({
             origen: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]("", [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]),
             destino: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]("", [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]),
-            fecha: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]("", [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required])
+            fecha: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]("", [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required, src_app_validator_dateValidator__WEBPACK_IMPORTED_MODULE_4__["DateValidator"].dateValidator])
         });
     };
     HomeComponent.prototype.today = function () {
@@ -438,6 +448,13 @@ var HomeComponent = /** @class */ (function () {
             mes = '0' + mes;
         }
         this.date = anio + "-" + mes + "-" + dia;
+    };
+    HomeComponent.prototype.onSubmit = function () {
+        this.success = true;
+        this.crearForm();
+    };
+    HomeComponent.prototype.cerrarMensaje = function () {
+        this.success = false;
     };
     Object.defineProperty(HomeComponent.prototype, "origen", {
         get: function () {
@@ -794,6 +811,78 @@ var HeaderComponent = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_service_idioma_service__WEBPACK_IMPORTED_MODULE_2__["IdiomaService"]])
     ], HeaderComponent);
     return HeaderComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/validator/dateValidator.ts":
+/*!********************************************!*\
+  !*** ./src/app/validator/dateValidator.ts ***!
+  \********************************************/
+/*! exports provided: DateValidator */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DateValidator", function() { return DateValidator; });
+var DateValidator = /** @class */ (function () {
+    function DateValidator() {
+    }
+    DateValidator.dateValidator = function (c) {
+        if (c.pristine) {
+            return null;
+        }
+        if ((c.value !== undefined && c.value !== '' && c.value != null)) {
+            var month = null;
+            var day = null;
+            var year = null;
+            var currentTaxYear = Number(new Date().getFullYear());
+            var currentMonth = Number(new Date().getMonth() + 1);
+            var currentDay = Number(new Date().getDate());
+            if (c.value.indexOf('-') > -1) {
+                var res = c.value.split("-");
+                if (res.length > 1) {
+                    year = res[0];
+                    month = res[1];
+                    day = res[2];
+                }
+            }
+            else {
+                return { 'dateInvalid': true };
+            }
+            if (isNaN(month) || isNaN(day) || isNaN(year)) {
+                return { 'dateInvalid': true };
+            }
+            month = Number(month);
+            day = Number(day);
+            year = Number(year);
+            if (month < 1 || month > 12) { // check month range
+                return { 'dateInvalid': true };
+            }
+            if (day < 1 || day > 31) {
+                return { 'dateInvalid': true };
+            }
+            if ((month === 4 || month === 6 || month === 9 || month === 11) && day === 31) {
+                return { 'dateInvalid': true };
+            }
+            if (month == 2) { // check for february 29th
+                var isleap = (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0));
+                if (day > 29 || (day === 29 && !isleap)) {
+                    return { 'dateInvalid': true };
+                }
+            }
+            if (year < currentTaxYear || month < currentMonth || day < currentDay) {
+                return { 'prevDate': true };
+            }
+            if (year > (currentTaxYear + 2)) {
+                return { "tooLate": true };
+            }
+        }
+        return null;
+    };
+    return DateValidator;
 }());
 
 
