@@ -1,19 +1,20 @@
-<article class="container">
-  <div class="row">
-      <div class="col-lg-4 mb-lg-5 mt-lg-5">
-        <h3>{{ info('s-alquiler') }}</h3>
-      </div>
-      <div class="d-none d-lg-block borde mt-5"></div>
-      <div class="offset-lg-1 col-lg-6 mb-5 mt-5">
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <h2 class="text-center text-uppercase">{{ info('s-alquiler') }}</h2>
+    <hr class="star-dark mb-5">
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
         <p>
-          <span>
-            {{ info('s-reserva') }}
-          </span>
+          {{ info('s-reserva') }}
         </p>
       </div>
-      <div class="col-lg-6 offset-lg-3 mt-lg-5">
+    </div><!-- Row -->
+
+    <div class="row justify-content-center">
+      <div class="text-center mt-4">
         <p>{{ info('s-ofrecemos') }}</p>
-        <ul class="black">
+        <ul class="black text-left">
           <li>
             <strong> {{ info('s-linea') }} </strong>
           </li>
@@ -33,7 +34,7 @@
                 {{ info('s-servicio-dis') }}
               </span>
             </strong>
-
+  
             <ul>
               <li>{{ info('s-circuitos') }}</li>
               <li>{{ info('s-equipos') }}</li>
@@ -42,6 +43,7 @@
           </li>
         </ul>
       </div>
-      
+    </div><!-- Row -->
+
   </div>
-</article>
+</section>

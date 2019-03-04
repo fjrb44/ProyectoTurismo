@@ -1,59 +1,10 @@
-<div class="container" (click)="cerrarMensaje()">
-
-  <div *ngIf="success" class="alert alert-success">
-    {{ info('h-ticket') }}
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <app-home-text></app-home-text>
+    </div>
+    <div class="col-6">
+      <app-reserva></app-reserva>
+    </div>
   </div>
-  <form class="mt-5" [formGroup]="form" (ngSubmit)="onSubmit()">
-    <div class="form-group">
-      <label for="origen">{{ info('h-or') }}</label>
-      <select id="origen" formControlName="origen" class="form-control">
-        <option value="" disabled hidden selected>{{ info('h-or') }}...</option>
-        <option *ngFor="let or of origenes" value="{{or}}">{{or}}</option>
-      </select>
-
-      <div *ngIf="origen.errors && (origen.touched || origen.dirty)" class="alert alert-danger">
-        <div *ngIf="origen.errors.required">
-          {{ info('h-error-origen') }}
-        </div>
-      </div>
-
-    </div>
-    <div class="form-group">
-      <label for="destino">{{ info('h-des') }}</label>
-      <select id="destino" formControlName="destino" class="form-control centrar">
-        <option value="" disabled hidden selected>{{ info('h-des') }}...</option>
-        <option *ngFor="let des of destinos" value="{{des}}">{{des}}</option>
-      </select>
-
-      <div *ngIf="destino.invalid && (destino.touched || destino.dirty)" class="alert alert-danger">
-        <div *ngIf="destino.errors.required">
-          {{ info('h-error-destino') }}
-        </div>
-      </div>
-
-    </div>
-    <div class="form-group">
-      <label for="fecha">{{ info('h-fe') }}</label>
-      <input id="fecha" type="date" min="{{date}}" id="myInput" formControlName="fecha" class="form-control">
-
-      <div *ngIf="fecha.errors && (fecha.touched || fecha.dirty)" class="alert alert-danger">
-        <div *ngIf="fecha.errors.required">
-            {{ info('h-fe-req') }}
-        </div>
-        <div *ngIf="fecha.errors.prevDate">
-            {{ info('h-fe-today') }}
-        </div>
-        <div *ngIf="fecha.errors.tooLate">
-            {{ info('h-fe-future') }}
-        </div>
-        <div *ngIf="fecha.errors.dateInvalid">
-            {{ info('h-wrong') }}
-        </div>
-      </div>
-
-    </div>
-    <div class="form-group text-center">
-      <button type="submit" class="btn btn-success" [disabled]="form.invalid">{{ info('at-env') }}</button>
-    </div>
-  </form>
 </div>

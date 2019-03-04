@@ -5,12 +5,13 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { AtencionComponent } from './pages/atencion/atencion.component';
 import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { ReservaComponent } from './pages/reserva/reserva.component';
 
 const routes: Routes = [
   { path: "home", component: HomeComponent },
   { path: "about", component: AboutUsComponent},
   { path: "contactanos", component: AtencionComponent},
-  { path: "reserva", component: HomeComponent },
+  { path: "reserva", component: ReservaComponent },
   { path: "servicios", component: ServiciosComponent },
   { path: "", redirectTo: "/home", pathMatch:"full" },
   { path: "**", component: NotFoundComponent }
@@ -27,5 +28,6 @@ export const routerModules = [
   AboutUsComponent, 
   AtencionComponent, 
   ServiciosComponent,
-  NotFoundComponent
+  NotFoundComponent,
+  ReservaComponent
 ]

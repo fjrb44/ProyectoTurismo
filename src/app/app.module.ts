@@ -8,13 +8,15 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgxPopper } from 'angular-popper';
+import { HomeTextComponent } from './pages/home-text/home-text.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     routerModules,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HomeTextComponent
   ],
   imports: [
     BrowserModule,
