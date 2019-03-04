@@ -1,3 +1,4 @@
+<!--
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-header">
 
   <div class="container">
@@ -47,4 +48,45 @@
     </div>
   </div>
 
+</nav>
+-->
+<nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" routerLink="/home">{{ info('h-nombre') }}</a>
+    <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLink="/about" routerLinkActive="active-link">
+            {{ info('h-sobre') }}
+          </a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLink="/contactanos" routerLinkActive="active-link">{{ info('h-contact') }}</a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLink="/reserva" routerLinkActive="active-link">
+            {{ info('h-reserva') }}
+          </a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLink="/servicios" routerLinkActive="active-link">
+            {{ info('h-servicios') }}
+          </a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1 nav-item idioma" *ngIf="lang()!=='esp'">
+          <img (click)="cambiarIdioma('esp')" src="assets/img/esp.jpg" [style.width.px]="30" [style.height.px]="20" alt="esp">
+        </li>
+        <li class="nav-item mx-0 mx-lg-1 nav-item idioma" *ngIf="lang()!=='eng'">
+          <img (click)="cambiarIdioma('eng')" src="assets/img/eng.png" [style.width.px]="30" [style.height.px]="20" alt="eng">
+        </li>
+        <li class="nav-item mx-0 mx-lg-1 nav-item idioma" *ngIf="lang()!=='fra'">
+          <img (click)="cambiarIdioma('fra')" src="assets/img/fra.jpg" [style.width.px]="30" [style.height.px]="20" alt="fra">
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>

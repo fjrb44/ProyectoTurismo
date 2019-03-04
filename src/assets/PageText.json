@@ -408,6 +408,30 @@
         "esp": "Error 404, página no encontrada.",
         "eng": "404 Error, page not found.",
         "fra": "Erreur 404, page non trouvée."
+    },
+    "f-about": {
+        "esp": "Somos tres jóvenes emprendedores.",
+        "eng": "We are three young entrepreneurs.",
+        "fra": "On est trois jeunes entrepreneurs."
+    },
+    "f-ab":{
+        "esp": "Sobre nosotros",
+        "eng": "About Us",
+        "fra": "À propos de nous"
+    },
+    "f-dir":{
+        "esp": "Localización",
+        "eng": "Location",
+        "fra": "Emplacement"
+    },
+    "f-per":{
+        "esp": "Málaga",
+        "eng": "Malaga",
+        "fra": "Málaga"
+    },
+    "f-sig":{
+        "esp": "Siguenos",
+        "eng": "Around the Web",
+        "fra": "Suivez nous"
     }
-
 }
