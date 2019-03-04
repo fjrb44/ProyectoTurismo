@@ -32,7 +32,8 @@ export class ReservaComponent implements OnInit {
       "Ronda, Hotel Ronda Moments",
       "Ronda, Hotel Molino del Arco",
       "Ronda, Hotel Maestranza",
-      "Ronda, Hotel Polo"
+      "Ronda, Hotel Polo",
+      "Ronda"
     ];
   }
 
