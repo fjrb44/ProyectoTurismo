@@ -18,7 +18,7 @@
                   {{or}}
                 </option>
               </select>
-              <div *ngIf="origen.errors && (origen.touched || origen.dirty)" class="help-block text-danger">
+              <div *ngIf="origen.errors && (origen.touched || origen.dirty)" class="alert alert-danger">
                 <div *ngIf="origen.errors.required">
                   {{ info('h-error-origen') }}
                 </div>
