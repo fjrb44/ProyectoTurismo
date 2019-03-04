@@ -25,14 +25,10 @@
             {{ info('h-servicios') }}
           </a>
         </li>
-        <li class="nav-item mx-0 mx-lg-1 nav-item idioma" *ngIf="lang()!=='esp'">
-          <img (click)="cambiarIdioma('esp')" src="assets/img/esp.jpg" [style.width.px]="30" [style.height.px]="20" alt="esp">
-        </li>
-        <li class="nav-item mx-0 mx-lg-1 nav-item idioma" *ngIf="lang()!=='eng'">
-          <img (click)="cambiarIdioma('eng')" src="assets/img/eng.png" [style.width.px]="30" [style.height.px]="20" alt="eng">
-        </li>
-        <li class="nav-item mx-0 mx-lg-1 nav-item idioma" *ngIf="lang()!=='fra'">
-          <img (click)="cambiarIdioma('fra')" src="assets/img/fra.jpg" [style.width.px]="30" [style.height.px]="20" alt="fra">
+        <li class="nav-item mx-0 mx-lg-1 nav-item">
+          <img class="idioma" *ngIf="lang()!=='esp'" (click)="cambiarIdioma('esp')" src="assets/img/esp.jpg" [style.width.px]="30" [style.height.px]="20" alt="esp">
+          <img class="idioma" *ngIf="lang()!=='eng'" (click)="cambiarIdioma('eng')" src="assets/img/eng.png" [style.width.px]="30" [style.height.px]="20" alt="eng">
+          <img class="idioma" *ngIf="lang()!=='fra'" (click)="cambiarIdioma('fra')" src="assets/img/fra.jpg" [style.width.px]="30" [style.height.px]="20" alt="fra">
         </li>
       </ul>
     </div>

@@ -433,5 +433,10 @@
         "esp": "Siguenos",
         "eng": "Around the Web",
         "fra": "Suivez nous"
+    },
+    "r-hed":{
+        "esp": "Compra un ticket",
+        "eng": "Buy a ticket",
+        "fra": "Acheter un billet"
     }
 }
