@@ -21,7 +21,7 @@
     },
     "h-servicios": {
         "esp": "Servicios",
-        "eng": "Servicies",
+        "eng": "Servicices",
         "fra": "Services"
     },
     "f-copy": {
@@ -150,8 +150,8 @@
         "fra": "Le travail de tous ces professionnels nous permet, jour après jour, de transporter des dizaines de passagers par la route."
     },
     "a-humanos":{
-        "esp": "Sí al personal humano y a la flota de autocares de última generación le sumamos unas amplias y modernas instalaciones, compuestas por las oficinas y cocheras; el resultado nos convierte en una compañía preparada para afrontar cualquier reto que se le presente.",
-        "eng": "Yes to the human staff and the fleet of last generation coaches we add a wide and modern facilities, composed of offices and garages; the result turns us into a company prepared to face any challenge that comes our way.",
+        "esp": "Si, al personal humano y a la flota de autocares de última generación le sumamos unas amplias y modernas instalaciones, compuestas por las oficinas y cocheras; el resultado nos convierte en una compañía preparada para afrontar cualquier reto que se le presente.",
+        "eng": "With human staff and the fleet of last generation coaches we add a wide and modern facilities, composed of offices and garages; the result turns us into a company prepared to face any challenge that comes our way.",
         "fra": "Oui au personnel humain et à la flotte d’entraîneurs de dernière génération, nous ajoutons des installations vastes et modernes, composées de bureaux et de garages; Ce résultat fait de nous une entreprise prête à relever tous les défis qui se présentent à nous."
     },
     "a-seguridad":{
