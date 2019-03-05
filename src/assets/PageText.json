@@ -21,7 +21,7 @@
     },
     "h-servicios": {
         "esp": "Servicios",
-        "eng": "Servicices",
+        "eng": "Services",
         "fra": "Services"
     },
     "f-copy": {
@@ -32,7 +32,7 @@
     "a-about": {
         "esp": "Somos tres jóvenes emprendedores que, tras diversos estudios, nos hemos lanzado al mundo empresarial creando este servicio de transporte directo, discreto y apto para todo tipo de público, desde niños hasta personas con movilidad reducida. Queremos llevar a nuestra bella Ronda a todo aquel que desee descubrirla y conocerla, por lo que ponemos a tu disposición este autobús directo desde el aeropuerto de Málaga, reduciendo el tiempo de viaje hasta en una hora en comparación a las líneas regulares de autobús, invirtiendo en calidad por y para usted.",
         "eng": "We are three young entrepreneurs who, after much studies, we have launched into the business world creating this direct transport service, which is discreet and suitable for all types of public, from children to people with reduced mobility. We want to bring our beautiful Ronda to anyone who wants to discover it. Investing in quality just for you; we offer a direct bus from the Málaga Airport that reduces up to 1 hour in time rather than the other regular bus lines.",
-        "fra": "On est trois jeunes entrepreneurs qui, après de longues études, on s’est lancé dans le monde des affaires en créant un service de transport direct, privé et adapté aux different types des clients, d’enfants à personnes à mobilité réduite, on veut ramener à notre magnifique Ronda toute personne qui désire la découvrir. Un investissement de qualité juste pour vous; on offer un tranfert depuis et vers l’aéroport de Málaga en arrivant à Ronda 1 heure plus tôt que les lignes régulières."
+        "fra": "On est trois jeunes entrepreneurs qui, après de longues études, on s’est lancé dans le monde des affaires en créant un service de transport direct, privé et adapté aux different types des clients, d’enfants à personnes à mobilité réduite, on veut ramener à notre magnifique Ronda toute personne qui désire la découvrir. Un investissement de qualité juste pour vous; On offre un tranfert depuis et vers l’aéroport de Málaga en arrivant à Ronda 1 heure plus tôt que les lignes régulières."
     },
     "a-join": {
         "esp": "¡Elígenos y vive la experiencia!",
@@ -67,7 +67,7 @@
     "s-linea":{
         "esp": "LÍNEA REGULAR AGP-RONDA",
         "eng": "REGULAR LINE MALAGA-AGP RONDA",
-        "fra": "LIGNE REGULIER MÁLAGA-AGP RONDA"
+        "fra": "LIGNE RÉGULIÈRE MÁLAGA-AGP RONDA"
     },
     "s-servicio":{
         "esp": "SERVICIOS A LA DEMANDA",
@@ -147,7 +147,7 @@
     "a-flor":{
         "esp": "La labor de todos estos profesionales nos permite, día a día, transportar por carretera a decenas de viajeros.",
         "eng": "The work of all these professionals allows us, day by day, to transport dozens of passengers by road.",
-        "fra": "Le travail de tous ces professionnels nous permet, jour après jour, de transporter des dizaines de passagers par la route."
+        "fra": "Le travail de tous ces professionnels nous permet, jour après jour, de transporter des dizaines de passagers."
     },
     "a-humanos":{
         "esp": "Si, al personal humano y a la flota de autocares de última generación le sumamos unas amplias y modernas instalaciones, compuestas por las oficinas y cocheras; el resultado nos convierte en una compañía preparada para afrontar cualquier reto que se le presente.",
