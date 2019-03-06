@@ -55,9 +55,9 @@
         "fra": "Location d'autocars à Málaga, Ronda Express"
     },
     "s-reserva":{
-        "esp": "Para reservar el transporte a la demanda el usuario deberá llamar al teléfono gratuito de la Junta de Málaga, 610 11 90 14 en horario de 9:00 a 14:00 y de 16:00 a 19:00, de lunes a viernes.",
-        "eng": "To reserve the transport on demand, the user must call the toll-free number of the Malaga Board, 610 11 90 14, from 9:00 a.m. to 2:00 p.m. and from 4:00 p.m. to 7:00 p.m., Monday through Friday.",
-        "fra": "Pour réserver le transport sur demande, l'utilisateur doit appeler le numéro gratuit du conseil de Malaga, le 610 11 90 14, de 9h00 à 14h00 et de 16h00 à 19h00 du lundi au vendredi."
+        "esp": "Para reservar el transporte a la demanda el usuario deberá llamar al teléfono gratuito de la Junta de Málaga, 610 11 90 14 en horario de 9:00-14:00 y 16:00-19:00, de lunes a viernes.",
+        "eng": "To reserve the transport on demand, the user must call the Málaga City Council's toll-free number, 610 11 90 14, from 9:00 am to 2:00 pm and 4:00 pm to 7:00 pm, Monday to Friday.",
+        "fra": "Pour réserver le transport sur demande, l'utilisateur doit appeler le numéro sans frais de la mairie de Málaga, le 610 11 90 14, du lundi au vendredi de 9h00 à 14h00 et de 16h00 à 19h00."
     },
     "s-ofrecemos":{
         "esp": "Ofrecemos a nuestros clientes, entre otros, los siguientes servicios:",
@@ -295,9 +295,9 @@
         "fra": "LES HEURES DE BUREAU:"
     },
     "at-hor":{
-        "esp": "De lunes a viernes de 9.30 a 13.30 horas y de 15.30 a 19.00 horas",
-        "eng": "From Monday to Friday from 9.30 am to 1.30 pm and from 3.30 pm to 7 pm",
-        "fra": "Du lundi au vendredi de 9h30 à 13h30 et de 15h30 à 19h00"
+        "esp": "De lunes a viernes de 9:00-14:00 y 16:00-19:00",
+        "eng": "From Monday to Friday from 9:00 am to 2:00 pm and 4:00 pm to 7:00 pm",
+        "fra": "Du lundi au vendredi de 9h à 14h et de 16h à 19h"
     },
     "at-nam":{
         "esp": "Nombre",
