@@ -10,7 +10,7 @@
         "fra": "À propos de nous"
     },
     "h-contact": {
-        "esp": "Contactanos",
+        "esp": "Contáctanos",
         "eng": "Contact us",
         "fra": "Contactez nous"
     },
@@ -55,9 +55,9 @@
         "fra": "Location d'autocars à Málaga, Ronda Express"
     },
     "s-reserva":{
-        "esp": "Para reservar el transporte a la demanda el usuario deberá llamar al teléfono gratuito de la Junta de Málaga, 610 11 90 14 en horario de 9:00 h a 14:00 h, de lunes a viernes.",
-        "eng": "To reserve the transport on demand, the user must call the free phone number of the Malaga Board, 610 11 90 14, from 9:00 a.m. to 2:00 p.m., Monday through Friday.",
-        "fra": "Pour réserver le transport sur demande, l'utilisateur doit appeler le numéro gratuit de Málaga Board, 610 11 90 14, de 9h00 à 14h00 du lundi au vendredi."
+        "esp": "Para reservar el transporte a la demanda el usuario deberá llamar al teléfono gratuito de la Junta de Málaga, 610 11 90 14 en horario de 9:00 a 14:00 y de 16:00 a 19:00, de lunes a viernes.",
+        "eng": "To reserve the transport on demand, the user must call the toll-free number of the Malaga Board, 610 11 90 14, from 9:00 a.m. to 2:00 p.m. and from 4:00 p.m. to 7:00 p.m., Monday through Friday.",
+        "fra": "Pour réserver le transport sur demande, l'utilisateur doit appeler le numéro gratuit du conseil de Malaga, le 610 11 90 14, de 9h00 à 14h00 et de 16h00 à 19h00 du lundi au vendredi."
     },
     "s-ofrecemos":{
         "esp": "Ofrecemos a nuestros clientes, entre otros, los siguientes servicios:",
@@ -65,9 +65,14 @@
         "fra": "Nous offrons à nos clients, entre autres, les services suivants:"
     },
     "s-linea":{
-        "esp": "LÍNEA REGULAR AGP-RONDA",
-        "eng": "REGULAR LINE MALAGA-AGP RONDA",
-        "fra": "LIGNE RÉGULIÈRE MÁLAGA-AGP RONDA"
+        "esp": "LÍNEA REGULAR AGP MÁLAGA - OIT RONDA",
+        "eng": "REGULAR LINE AGP MALAGA - OIT RONDA",
+        "fra": "LIGNE RÉGULIÈRE AGP MÁLAGA - OIT RONDA"
+    },
+    "s-linea2":{
+        "esp": "LÍNEA REGULAR OIT RONDA - AGP MÁLAGA",
+        "eng": "REGULAR LINE OIT RONDA - AGP MALAGA",
+        "fra": "LIGNE RÉGULIÈRE OIT RONDA - AGP MÁLAGA"
     },
     "s-servicio":{
         "esp": "SERVICIOS A LA DEMANDA",
@@ -100,9 +105,14 @@
         "fra": "Excursions variées."
     },
     "a-titulo":{
-        "esp": "Autobuses en Ronda | Alquiler de Autocares con conductor en Ronda",
-        "eng": "Buses in Ronda | Coach hire with driver in Ronda",
-        "fra": "Bus à Ronda | Location d'autocars avec chauffeur à Ronda"
+        "esp": "Autobuses en Ronda",
+        "eng": "Buses in Ronda",
+        "fra": "Bus à Ronda"
+    },
+    "a-titulo2":{
+        "esp": "Alquiler de Autocares con conductor en Ronda",
+        "eng": "Coach hire with driver in Ronda",
+        "fra": "Location d'autocars avec chauffeur à Ronda"
     },
     "a-inten":{
         "esp": "Intentamos dar siempre los mejores servicios con nuestra flota de autocares que están en constante renovación y contando con los mejores fabricantes de autocares.",
@@ -430,7 +440,7 @@
         "fra": "AGP Málaga"
     },
     "f-sig":{
-        "esp": "Siguenos",
+        "esp": "Síguenos",
         "eng": "Around the Web",
         "fra": "Suivez nous"
     },

@@ -25,7 +25,7 @@ export class ReservaComponent implements OnInit {
 
     this.origenes = [
       "AGP Málaga",
-      "Ronda"
+      "OIT Ronda"
     ];
     
     this.destinos = [
@@ -33,7 +33,7 @@ export class ReservaComponent implements OnInit {
       "Ronda, Hotel Molino del Arco",
       "Ronda, Hotel Maestranza",
       "Ronda, Hotel Polo",
-      "Ronda"
+      "OIT Ronda"
     ];
   }
 

@@ -7,24 +7,31 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item mx-0 mx-lg-1">
-          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLink="/about" routerLinkActive="active-link">
-            {{ info('h-sobre') }}
-          </a>
-        </li>
-        <li class="nav-item mx-0 mx-lg-1">
-          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLink="/contactanos" routerLinkActive="active-link">{{ info('h-contact') }}</a>
-        </li>
+        
         <li class="nav-item mx-0 mx-lg-1">
           <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLink="/reserva" routerLinkActive="active-link">
             {{ info('h-reserva') }}
           </a>
         </li>
+        
         <li class="nav-item mx-0 mx-lg-1">
           <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLink="/servicios" routerLinkActive="active-link">
             {{ info('h-servicios') }}
           </a>
         </li>
+
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLink="/contactanos" routerLinkActive="active-link">
+            {{ info('h-contact') }}
+          </a>
+        </li>
+        
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLink="/about" routerLinkActive="active-link">
+            {{ info('h-sobre') }}
+          </a>
+        </li>
+
         <li class="nav-item mx-0 mx-lg-1 nav-item">
           <img class="idioma" *ngIf="lang()!=='esp'" (click)="cambiarIdioma('esp')" src="assets/img/esp.jpg" [style.width.px]="30" [style.height.px]="20" alt="esp">
           <img class="idioma" *ngIf="lang()!=='eng'" (click)="cambiarIdioma('eng')" src="assets/img/eng.png" [style.width.px]="30" [style.height.px]="20" alt="eng">
